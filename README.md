@@ -2,15 +2,15 @@
 Simpligo - Sentence Complexity Ranking for Brazilian Portuguese v2
 
 ## NILC
-Este trabalho é parte do meu doutorado no ICMC-USP, vinculado ao laboratório do NILC - Núcleo Interinstitucional de Linguística Computacional.
+This work is part of my PhD degree at ICMC-USP, and the NILC lab.
 
 [http://www.nilc.icmc.usp.br/nilc/index.php](http://www.nilc.icmc.usp.br/nilc/index.php)
 
-## Licença
+## License
 [AGPL 3.0](https://www.gnu.org/licenses/agpl-3.0.pt-br.html)
 
 
-## Citação
+## Citing this work:
 ````
 @inproceedings{leal2019ranking,
     author = {Sidney Evaldo Leal and Vanessa Maia Aguiar de Magalhães and Magali Sanches Duran and Sandra Maria Aluísio},
