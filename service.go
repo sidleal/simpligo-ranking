@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"os/exec"
+	"strings"
 	"time"
 
 	"github.com/gorilla/mux"
@@ -110,10 +111,11 @@ func RankingHandler(w http.ResponseWriter, r *http.Request) {
 	listFeats := ""
 	for _, it := range srcList {
 		for _, f := range feats {
-			listFeats += fmt.Sprintf("%v", it[f])
+			listFeats += fmt.Sprintf("%v,", it[f])
 		}
-		listFeats += "|"
+		listFeats = strings.TrimRight(listFeats, ",") + "|"
 	}
+	listFeats = strings.TrimRight(listFeats, "|")
 
 	log.Println(listFeats)
 
