@@ -134,7 +134,9 @@ func RankingHandler(w http.ResponseWriter, r *http.Request) {
 	lines := strings.Split(string(out), "\n")
 	ret = lines[len(lines)-2]
 
-	fmt.Printf("combined out:\n%s\n", ret)
+	ret = strings.Trim(ret, ",")
+
+	fmt.Printf("Ret:\n%s\n", ret)
 
 	w.WriteHeader(http.StatusOK)
 	w.Write([]byte(ret))
