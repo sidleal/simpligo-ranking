@@ -1,7 +1,7 @@
 FROM datmo/keras-tensorflow:cpu-py35
 WORKDIR /opt/simpligo-ranking
 
-RUN pip uninstall -y tensorflow && pip install -y tensorflow==1.5 
+RUN pip uninstall -y tensorflow && pip install tensorflow==1.5 
 
 ENTRYPOINT /opt/simpligo-ranking/service
 
