@@ -130,8 +130,9 @@ func RankingHandler(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprint(w, ret)
 		return
 	}
+	fmt.Printf("combined out:\n%s\n", string(out))
 	lines := strings.Split(string(out), "\n")
-	ret = lines[len(lines)-1]
+	ret = lines[len(lines)-2]
 
 	fmt.Printf("combined out:\n%s\n", ret)
 
