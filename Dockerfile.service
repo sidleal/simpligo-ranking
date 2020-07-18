@@ -1,0 +1,6 @@
+FROM datmo/keras-tensorflow:cpu-py35
+WORKDIR /opt/simpligo-ranking
+
+ENTRYPOINT /opt/simpligo-ranking/service
+
+EXPOSE 8080

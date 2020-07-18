@@ -1,0 +1,1 @@
+docker build -t simpligo-ranking:$1 -f Dockerfile.service .
