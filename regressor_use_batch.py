@@ -30,7 +30,7 @@ for s in sents:
     if result > 1:
         result = 1.0
 
-    result_all += '%.02f'%result
+    result_all += '%.02f,'%result
 
 
 print(result_all)
