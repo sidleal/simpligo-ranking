@@ -132,8 +132,12 @@ func RankingHandler(w http.ResponseWriter, r *http.Request) {
 	}
 	fmt.Printf("combined out:\n%s\n", string(out))
 	lines := strings.Split(string(out), "\n")
-	ret = lines[len(lines)-2]
-
+	for _, l := range lines {
+		if strings.HasPrefix(l, ">>>") {
+			ret = l[3:]
+		}
+	}
+	ret = strings.TrimSpace(ret)
 	ret = strings.Trim(ret, ",")
 
 	fmt.Printf("Ret:\n%s\n", ret)
