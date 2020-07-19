@@ -33,5 +33,5 @@ for s in sents:
     result_all += '%.02f,'%result
 
 
-print(result_all)
+print('>>>',result_all)
 
