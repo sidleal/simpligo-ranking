@@ -12,14 +12,14 @@ This work is part of my PhD degree at ICMC-USP and NILC lab.
 
 ## Citing this work:
 ````
-@inproceedings{leal2019ranking,
-    author = {Sidney Evaldo Leal and Vanessa Maia Aguiar de Magalhães and Magali Sanches Duran and Sandra Maria Aluísio},
-    title = {Avaliação Automática da Complexidade de Sentenças do Português Brasileiro para o Domínio Rural},
-    booktitle = {STIL 2019 - Symposium in Information and Human Language Technology},
-    year = {2019},
+@inproceedings{leal2020ranking,
+    author = {Sidney Evaldo Leal and João Marcos Munguba Vieira and Erica dos Santos Rodrigues and Elisângela Nogueira Teixeira and Sandra Maria Aluísio},
+    title = {Using Eye-tracking Data to Predict the Readability of Brazilian Portuguese Sentences in Single-task, Multi-task and Sequential Transfer Learning Approaches},
+    booktitle = {The 28th International Conference on Computational Linguistics (COLING)},
+    year = {2020},
     pages = {?–?},
-    month = {Outubro},
-    date = {15-18},
-    address = {Salvador, Bahia, Brasil},
+    month = {December},
+    date = {8-13},
+    address = {Barcelona, Spain},
 }
 ````
