@@ -17,9 +17,9 @@ This work is part of my PhD thesis at ICMC-USP and NILC lab.
     title = {Using Eye-tracking Data to Predict the Readability of Brazilian Portuguese Sentences in Single-task, Multi-task and Sequential Transfer Learning Approaches},
     booktitle = {The 28th International Conference on Computational Linguistics (COLING)},
     year = {2020},
-    pages = {?–?},
+    pages = {5821–5831},
     month = {December},
     date = {8-13},
-    address = {Barcelona, Spain},
+    address = {Barcelona, Spain (online)},
 }
 ````
