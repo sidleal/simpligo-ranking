@@ -15,7 +15,7 @@ This work is part of my PhD thesis at ICMC-USP and NILC lab.
 @inproceedings{leal2020ranking,
     author = {Sidney Evaldo Leal and João Marcos Munguba Vieira and Erica dos Santos Rodrigues and Elisângela Nogueira Teixeira and Sandra Maria Aluísio},
     title = {Using Eye-tracking Data to Predict the Readability of Brazilian Portuguese Sentences in Single-task, Multi-task and Sequential Transfer Learning Approaches},
-    booktitle = {The 28th International Conference on Computational Linguistics (COLING)},
+    booktitle = {Proceedings of the 28th International Conference on Computational Linguistics (COLING)},
     year = {2020},
     pages = {5821–5831},
     month = {December},
