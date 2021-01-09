@@ -3,7 +3,9 @@ Simpligo - Sentence Complexity Ranking for Brazilian Portuguese v2
 
 ## NILC
 This work is part of my PhD thesis at ICMC-USP and NILC lab.
+
 [https://www.aclweb.org/anthology/2020.coling-main.512/](https://www.aclweb.org/anthology/2020.coling-main.512/)
+
 [http://www.nilc.icmc.usp.br/nilc/index.php](http://www.nilc.icmc.usp.br/nilc/index.php)
 
 ## License
